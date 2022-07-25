@@ -15,15 +15,14 @@ Narou.rb 作者様が作ったrepositoryをほんの少しだけいじったも�
 
 # 使い方（docker-compose 編）
 
-docker-compose のほうが楽なので、こちらを推奨します。<br>
-ただし、設定ファイルを１つ用意する必要があります。
+docker-composeが楽なので、こちらを推奨します。<br>
 
 コマンドを実行したフォルダが小説管理用のフォルダになるので移動しておきます。
 
 移動後、以下のコマンドを実行
 
 ```sh
-$ docker-compose up
+$ docker compose up
 ```
 
 自動的に WEB UI が起動します。<br>
